@@ -13,6 +13,8 @@ const mapDispatchToProps = {
 
 const connector = connect(mapStateToProps, mapDispatchToProps);
 
+console.log("this is product list page");
+
 const ProductList = (props: any) => {
   const { productList, cartList } = props.productsData;
   return (
